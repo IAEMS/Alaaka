@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    
+    <title>JobClass - Changelog</title>
+    
+    <!-- Styles -->
+    <link href="assets/css/theDocs.all.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <link href="assets/css/skin-blue.css" rel="stylesheet">
+    
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,300,400,500%7CLato:300,400' rel='stylesheet' type='text/css'>
+    
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" href="assets/img/favicon.png">
+</head>
+
+<body>
+
+<header class="site-header">
+    
+    <!-- Top navbar & branding -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            
+            <!-- Toggle buttons and brand -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+                    <span class="glyphicon glyphicon-option-vertical"></span>
+                </button>
+                
+                <button type="button" class="navbar-toggle for-sidebar" data-toggle="offcanvas">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <a class="navbar-brand" href="http://support.bedigit.com/help-center"><img src="assets/img/logo.png" alt="logo"></a>
+            </div>
+            <!-- END Toggle buttons and brand -->
+            
+            <!-- Top navbar -->
+            <div id="navbar" class="navbar-collapse collapse" aria-expanded="true" role="banner">
+                <ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="index.html">Documentation</a></li>
+                    <li><a href="http://support.bedigit.com/help-center">Help Center</a></li>
+                    <li class="hero"><a href="https://codecanyon.net/item/jobclass-geolocalized-job-portal-script/18776089?ref=BedigitCom">Purchase</a></li>
+                </ul>
+            </div>
+            <!-- END Top navbar -->
+        
+        </div>
+    </nav>
+    <!-- END Top navbar & branding -->
+
+</header>
+
+
+<main class="container">
+    <div class="row">
+        
+        <!-- Main content -->
+        <article class="col-md-12 col-sm-12 main-content" role="main">
+            
+            <header>
+                <h1>Changelog</h1>
+                <p>In this page, you can find a record of all the changes made to JobClass such as bug fixes, new features, etc.</p>
+            </header>
+    
+            <section>
+                <h3 id="v3.0">Version 3.0 <small class="release-date">November 20, 2017</small></h3>
+                <br>
+                <ul class="changelog">
+					<li class="ch-added">Front: Support for RTL added (Front)</li>
+					<li class="ch-added">RSS feeds generator added (domain.tld/feed)</li>
+					<li class="ch-added">Fresh Installation: Arabic language added</li>
+                    <li class="ch-added">Pages Header: Auto-rotate images based on their orientation using Exif data<br>(NOTE: To enable this feature, you have just to enable the PHP Exif extension on your server)</li>
+					<li class="ch-updated">Match the packages currency to the countries currency (NOTE: You have to create a package per currency)</li>
+					<li class="ch-updated">Home Header improved: Enable to set a background image by country</li>
+					<li class="ch-updated">Add salary type in the job details page</li>
+					<li class="ch-updated">New Language Addition: When auto-copying categories, make the 'slug' column unique using the new language code</li>
+					<li class="ch-fixed">Non latin characters are now accepted for tags</li>
+					<li class="ch-fixed">Right translation of dates on the jobs details page</li>
+					<li class="ch-fixed">Language deletion issue fixed</li>
+					<li class="ch-fixed">Minor Bug Fixes</li>
+                </ul>
+            </section>
+    
+            <section>
+                <h3 id="v2.9">Version 2.9 <small class="release-date">November 3, 2017</small></h3>
+                <br>
+                <ul class="changelog">
+                    <li class="ch-updated">Home Header section improved (More Options added)</li>
+                    <li class="ch-updated">Home Latest & Sponsored Ads sections ("Order By" option added)</li>
+                    <li class="ch-fixed">Tags format validation added (to prevent 404 error)</li>
+                    <li class="ch-fixed">Admin panel, MetaTags validation (Edit Mode)</li>
+                    <li class="ch-fixed">Admin panel, City validation (Edit Mode)</li>
+                    <li class="ch-fixed">Display archived jobs in user's area</li>
+                    <li class="ch-fixed">Display the right date for deleting in the "Archived post expiration" email</li>
+                    <li class="ch-fixed">Carousel header/title margin for mobile display</li>
+                </ul>
+            </section>
+    
+            <section>
+                <h3 id="v2.8">Version 2.8 <small class="release-date">October 24, 2017</small></h3>
+                <br>
+                <ul class="changelog">
+                    <li class="ch-updated">The upgrade section in the documentation is updated</li>
+                    <li class="ch-updated">Admin users can now add and/or remove Meta-Tags for specific pages</li>
+                    <li class="ch-updated">Home Sections management improved (More Options for the sections)</li>
+                    <li class="ch-updated">Small improvements</li>
+                    <li class="ch-added">Quick countries selection added</li>
+                    <li class="ch-added">External link option added for pages</li>
+                    <li class="ch-added">The value of search radius distance can be edited from the /.env file (<a href="http://support.bedigit.com/help-center/articles/64/default-value-of-search-radius-distance" target="_blank">More info</a>)</li>
+                    <li class="ch-fixed">Bugfix: Don't update the current password if the password field is empty (Admin panel -> My Account)</li>
+                    <li class="ch-fixed">Bugfix: WYSIWYG editor links with target attribute support (Ad Submission Form)</li>
+                </ul>
+            </section>
+    
+            <section>
+                <h3 id="v2.7">Version 2.7 <small class="release-date">October 13, 2017</small></h3>
+                <br>
+                <ul class="changelog">
+                    <li class="ch-updated">Homepage header improved</li>
+                    <li class="ch-updated">Footer improved</li>
+                    <li class="ch-updated">Registration via Social Login improved</li>
+                    <li class="ch-fixed">Minor Bug Fixes</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h3 id="v2.6">Version 2.6 <small class="release-date">October 9, 2017</small></h3>
+                <br>
+                <ul class="changelog">
+					<li class="ch-added">Multi Companies & Resumes features added</li>
+					<li class="ch-added">Jobs application with an external URL feature added</li>
+					<li class="ch-added">Companies listing + Companies page added</li>
+					<li class="ch-added">Allow only logged users to contact recruiters</li>
+					<li class="ch-added">Quick Login added</li>
+					<li class="ch-added">Tags (and meta-tags keywords for ads page) feature added</li>
+					<li class="ch-added">Laravel 5.5.14 supported (with a Laravel Security Fix)</li>
+					<li class="ch-updated">Improvement of the similar jobs selection on the jobs page (displaying jobs from the same parent category instead of the near location)</li>
+					<li class="ch-updated">HTML Minify feature improved</li>
+					<li class="ch-updated">Search filters improved</li>
+					<li class="ch-updated">Minor improvements</li>
+					<li class="ch-fixed">Fixed: Google Adsense responsive ads supported</li>
+					<li class="ch-fixed">Fixed: Google Analytics new tracking code supported</li>
+					<li class="ch-fixed">Fixed: UK mobile phone verification</li>
+                </ul>
+            </section>
+    
+            <section>
+                <h3 id="v2.5">Version 2.5 <small class="release-date">September 4, 2017</small></h3>
+                <br>
+                <ul class="changelog">
+					<li class="ch-updated">Support for Laravel 5.5</li>
+					<li class="ch-updated">Upgrading's process improved (check and launch automatically after files updated)</li>
+					<li class="ch-fixed">Bugfix: Cron Job Command</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3 id="v2.4">Version 2.4 <small class="release-date">September 1, 2017</small></h3>
+                <br>
+                <ul class="changelog">
+                    <li class="ch-updated">Installation process improved (Made easy for Shared servers)</li>
+                    <li class="ch-updated">
+                        Upgrading's process improved<br>
+                        (By making an upgrade, you could upgrade automatically all the missed versions (even from v1.0 to the latest version))
+                    </li>
+                    <li class="ch-updated">Pages layout size increased & Header improved</li>
+                    <li class="ch-updated">Minor improvements (select2 cities selection, etc.)</li>
+                    <li class="ch-fixed">Bugfix</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3 id="v2.3">Version 2.3 <small class="release-date">August 16, 2017</small></h3>
+                <br>
+                <ul class="changelog">
+                    <li class="ch-added">Pictures versioning feature added (To clear browsers cache if need)</li>
+                    <li class="ch-fixed">Phone number format fixed for Twilio (Add "+" to the phone numbers if missing)</li>
+                    <li class="ch-fixed">Administratives Divisions selection fixed</li>
+                </ul>
+            </section>
+    
+            <section>
+                <h3 id="v2.2">Version 2.2 <small class="release-date">August 14, 2017</small></h3>
+                <br>
+                <ul class="changelog">
+                    <li class="ch-fixed">Bugfix (Cache - Remove use of rememberForever())</li>
+                </ul>
+            </section>
+    
+            <section>
+                <h3 id="v2.1">Version 2.1 <small class="release-date">August 11, 2017</small></h3>
+                <br>
+                <ul class="changelog">
+                    <li class="ch-updated">Minor improvements (mix() URL for CSS & JS)</li>
+                    <li class="ch-fixed">Minor bug fixed</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h3 id="v2.0">Version 2.0 <small class="release-date">August 7, 2017</small></h3>
+                <br>
+                <ul class="changelog">
+					<li class="ch-added">Sub-categories support added</li>
+					<li class="ch-added">Homepage customization (from the Admin panel)</li>
+					<li class="ch-added">SVG Maps colors and sizes edition (from the Admin panel)</li>
+					<li class="ch-added">Twilio and Nexmo APIs integration (Account verification by SMS)</li>
+					<li class="ch-added">Users can now log in with mobile phone number or email address or username</li>
+					<li class="ch-added">Read and reply to the users messages (Authors messaging system)</li>
+					<li class="ch-added">User's transactions list (Users area)</li>
+                    <li class="ch-added">Possibility of limiting a payment method to one or more countries</li>
+                    <li class="ch-added">Sparkpost Mail API supported</li>
+					<li class="ch-added">"Resend Mail or SMS verification" feature (Get more users with valid email or phone number)</li>
+					<li class="ch-added">Multi-language meta-tags manager (Admin panel)</li>
+					<li class="ch-added">Laravel 5.4 supported</li>
+					<li class="ch-updated">Installation process improved</li>
+					<li class="ch-updated">The ads creation process is improved (with submission by steps)</li>
+					<li class="ch-updated">The locations fields are removed (from the posting form)</li>
+					<li class="ch-updated">Locations and cities management improved (Admin panel)</li>
+					<li class="ch-updated">Optimizing Database Performance</li>
+                    <li class="ch-updated">Improving Loading Performance (Less SQL queries, Combine & Minify some CSS/JS files)</li>
+                    <li class="ch-updated">And many more small improvements</li>
+                    <li class="ch-fixed">Minor bugs fixed</li>
+                </ul>
+            </section>
+    
+            <section>
+                <h3 id="v1.9">Version 1.9 <small class="release-date">April 6, 2017</small></h3>
+                <br>
+                <ul class="changelog">
+                    <li class="ch-updated">Installation process improved</li>
+                    <li class="ch-updated">Page option to exclude some pages from the footer links added</li>
+                    <li class="ch-updated">Files upload and storage improved</li>
+                    <li class="ch-updated">User area's lists (my ads, favorites ads, etc.) pagination added</li>
+                    <li class="ch-updated">Increase the number of characters for the Custom CSS and Tracking Code options</li>
+                    <li class="ch-updated">Un-featured premium ads after package expiration</li>
+                    <li class="ch-updated">Redirect new users to the user area if Users activation is not required</li>
+                    <li class="ch-updated">Separation of employer account features from candidate account</li>
+                    <li class="ch-added">Setting to change the default favicon</li>
+                    <li class="ch-added">Setting for unactivated, activated and archived ads expiration</li>
+                    <li class="ch-added">Setting to change default supported images extensions</li>
+                    <li class="ch-added">Setting to change default supported files extensions</li>
+                    <li class="ch-added">Sending transactional emails with a dedicated email address</li>
+                    <li class="ch-added">Email notification to the admin users on new registration (with the social login)</li>
+                    <li class="ch-added">Plugin system added</li>
+                    <li class="ch-fixed">The tips (broken) link is fixed on the ads details page</li>
+                    <li class="ch-updated">And many more small improvements</li>
+                </ul>
+            </section>
+    
+            <section>
+                <h3 id="v1.8">Version 1.8 <small class="release-date">February 17, 2017</small></h3>
+                <br>
+                <ul class="changelog">
+                    <li class="ch-updated">Improvement : New Admin Panel login page</li>
+                    <li class="ch-updated">Improvement : New Admin Panel Dashboard</li>
+                    <li class="ch-updated">Improvement : Manage ads per page in search results (from the Panel)</li>
+                    <li class="ch-updated">Improvement : Decimals numbers (salary) support</li>
+                    <li class="ch-updated">Improvement : Russian pluralization support</li>
+                    <li class="ch-updated">And many more small improvements</li>
+                    <li class="ch-added">AJAX checkbox to activate/deactivate settings (from the Panel)</li>
+                    <li class="ch-added">WYSIWYG Editors</li>
+                    <li class="ch-added">Dynamics pages editor (for statics pages)</li>
+                    <li class="ch-added">Decimals Superscript support</li>
+                    <li class="ch-added">Manage Admin Panel theme colors</li>
+                    <li class="ch-added">Admin Panel translations</li>
+                    <li class="ch-fixed">Remove translated entries on language deletion</li>
+                    <li class="ch-fixed">Add jobs to favorites from jobs details page</li>
+                    <li class="ch-fixed">URL base of the search page filters</li>
+                </ul>
+            </section>
+    
+            <section>
+                <h3 id="v1.7">Version 1.7 <small class="release-date">February 3, 2017</small></h3>
+                <br>
+                <ul class="changelog">
+                    <li class="ch-updated">Improvement : Copy all language files and data by creating new language</li>
+                    <li class="ch-updated">Improvement : User's saved searches display</li>
+                    <li class="ch-updated">Improvement : Registered users can disable comments on their ads</li>
+                    <li class="ch-updated">Improvement : AdsCleaner command</li>
+                    <li class="ch-updated">Improvement : Logged user's area</li>
+                    <li class="ch-fixed">User's favourite ads removal</li>
+                    <li class="ch-fixed">Banned users can no longer log in</li>
+                    <li class="ch-fixed">Search results (search by city after by region)</li>
+                    <li class="ch-fixed">Sitemaps 404 error when language code and country code are identical</li>
+                </ul>
+            </section>
+    
+            <section>
+                <h3 id="v1.6">Version 1.6 <small class="release-date">January 24, 2017</small></h3>
+                <br>
+                <ul class="changelog">
+                    <li class="ch-updated">Improvement : Admin panel</li>
+                    <li class="ch-updated">Improvement : Payment system</li>
+                    <li class="ch-updated">Removal the "Title/Gender" field from the registration form</li>
+                    <li class="ch-added">Setting for the max upload file size from the admin panel</li>
+                    <li class="ch-added">Send notification emails to admin users (on new user or ad)</li>
+                    <li class="ch-added">Translation data are kept when default language is changed</li>
+                    <li class="ch-added">Activate/Deactivate categories with their children if exist</li>
+                    <li class="ch-added">Activate/Deactivate translated entries with their translations if exist</li>
+                    <li class="ch-added">Admin users can now add unlimited Packs and can delete them</li>
+                    <li class="ch-added">Automatic creation of translated entries (when creating the main entry)</li>
+                    <li class="ch-added">Automatic update for all non translatable fields (from main entry)</li>
+                    <li class="ch-added">New upload tool (in admin panel)</li>
+                    <li class="ch-added">Send (both to user and admin users) notification email on new payement</li>
+                    <li class="ch-added">Setting to activate/deactivate all admin users notifications</li>
+                    <li class="ch-added">Users can now upgrade their existing ads (by making a payment)</li>
+                    <li class="ch-added">Ad's badge added for paid ads (when you visit the ad)</li>
+                    <li class="ch-added">A blank CSS file (custom.css) for more CSS customization</li>
+                    <li class="ch-fixed">Menu mobile view issue</li>
+                    <li class="ch-fixed">Language files for the use of the plural in the Russian language</li>
+                    <li class="ch-fixed">HTTP Cache activation (white page)</li>
+                    <li class="ch-fixed">Saving searches results</li>
+                </ul>
+            </section>
+    
+            <section>
+                <h3 id="v1.5">Version 1.5 <small class="release-date">December 16, 2016</small></h3>
+                <br>
+                <ul class="changelog">
+                    <li class="ch-fixed">Search page links (with query string)</li>
+                    <li class="ch-fixed">multi-language POST login and logout redirect</li>
+                    <li class="ch-fixed">Add new cities from the Admin panel (manually)</li>
+                </ul>
+            </section>
+    
+            <section>
+                <h3 id="v1.4">Version 1.4 <small class="release-date">December 08, 2016</small></h3>
+                <br>
+                <ul class="changelog">
+                    <li class="ch-added">Social login on SignUp page</li>
+                    <li class="ch-updated">Transactional email (for Amazon SES)</li>
+                    <li class="ch-fixed">Ads visits counter</li>
+                    <li class="ch-fixed">Search by city (ignore the svg map parameter if the city ID is provided)</li>
+                    <li class="ch-fixed">AdsCleaner command</li>
+                </ul>
+            </section>
+    
+            <section>
+                <h3 id="v1.3">Version 1.3 <small class="release-date">November 29, 2016</small></h3>
+                <br>
+                <ul class="changelog">
+                    <li class="ch-added">Country locations databases installation feature (from the admin panel)</li>
+                    <li class="ch-added">Simplified activation of ads and users by an ajax call (from the admin panel)</li>
+                    <li class="ch-added">Mini stats on the admin panel dashboard</li>
+                    <li class="ch-fixed">Timezone, Loc.admin1 & Loc.admin2 edit form (from the admin panel)</li>
+                    <li class="ch-fixed">Find the most populated city in region (state) or in country</li>
+                    <li class="ch-fixed">Distance between cities on search page</li>
+                    <li class="ch-fixed">Latest jobs list (on homepage) for review activation</li>
+                    <li class="ch-fixed">Guests can post Ads</li>
+                    <li class="ch-fixed">XML sitemaps generation</li>
+                    <li class="ch-fixed">Improved: HTTPS protocol usage</li>
+                    <li class="ch-updated">And many more small improvements</li>
+                </ul>
+            </section>
+    
+            <section>
+                <h3 id="v1.2">Version 1.2 <small class="release-date">November 23, 2016</small></h3>
+                <br>
+                <ul class="changelog">
+                    <li class="ch-added">Laravel 5.3 support</li>
+                    <li class="ch-added">HTTPS support added (Please check the .htaccess)</li>
+                    <li class="ch-added">Admin panel: Meta tag description field added in settings area</li>
+                    <li class="ch-fixed">Search by date intervals fixed (on the left sidebar of results page)</li>
+                    <li class="ch-fixed">UK flag fixed</li>
+                    <li class="ch-fixed">Reset password (from admin panel) fixed</li>
+                    <li class="ch-updated">Installation process improved</li>
+                </ul>
+            </section>
+    
+            <section>
+                <h3 id="v1.1">Version 1.1 <small class="release-date">November 15, 2016</small></h3>
+                <br>
+                <ul class="changelog">
+                    <li class="ch-fixed">Duplicate content links fixed for multi-countries website</li>
+                    <li class="ch-fixed">Small bugs fixed</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h3 id="v1.0">Version 1.0 <small class="release-date">November 14, 2016</small></h3>
+                <p>Initial release.</p>
+            </section>
+        
+        
+        </article>
+        <!-- END Main content -->
+    </div>
+</main>
+
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="container">
+        <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+    
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <p>Copyright &copy; 2017. All right reserved</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <ul class="footer-menu">
+                    <li><a href="changelog.html">Changelog</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- END Footer -->
+
+<!-- Scripts -->
+<script src="assets/js/theDocs.all.min.js"></script>
+<script src="assets/js/custom.js"></script>
+
+</body>
+</html>
